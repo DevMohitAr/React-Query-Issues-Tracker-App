@@ -26,7 +26,7 @@ a {
 }
 .red:hover,
 .red.selected {
-  background-color: rgba(255, 0, 0, 0.5);
+  background-color: rgba(255, 0, 0, 0.5)  ;
 }
 .blue {
   background-color: rgba(0, 0, 255, 0.1);
@@ -213,6 +213,7 @@ form input {
   display: flex;
   gap: 0.5rem;
   flex-wrap: wrap;
+  cursor: pointer;
 }
 .status-select {
   background: black;
